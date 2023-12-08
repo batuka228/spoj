@@ -137,6 +137,91 @@
 // }
 // console.log(trans(minut, sec));
 
+// tsag minut sec to sec
+
+// let tsag = 1;
+// let minut = 2;
+// let sec = 3;
+// function x(tsag, minut, sec) {
+//   minut = minut + tsag * 60;
+//   sec = sec + minut * 60;
+//   return sec;
+// }
+// console.log(x(tsag, minut, sec));
+
+// honog tsag
+
+// let tsag = 44;
+// let honog;
+// function x(tsag, honog) {
+//   honog = tsag / 24;
+//   tsag = tsag % 24;
+//   console.log(Math.floor(honog) + "" + "honog " + " " + tsag + "tsag bn ");
+// }
+// x(tsag, honog);
+
+// honog tsag -> tsag
+
+// let honog = 2;
+// let tsag = 5;
+// function x(honog, tsag) {
+//   tsag = tsag + honog * 24;
+//   return tsag;
+// }
+// console.log(x(honog, tsag));
+
+// let sar = 27;
+// let jil;
+// function x(sar, jil) {
+//   jil = sar / 12;
+//   sar = sar % 12;
+//   console.log(Math.floor(jil) + " " + "jil" + " " + sar + " " + "sar bn ");
+// }
+// x(sar, jil);
+
+// jil sar -> sar
+
+// let jil = 2;
+// let sar = 7;
+// function x(jil, sar) {
+//   sar = sar + jil * 12;
+//   return sar;
+// }
+// console.log(x(jil, sar));
+
+// 2 too nii ih
+
+// let a = 16;
+// let b = 14;
+// if (a > b) {
+//   console.log(a);
+// } else {
+//   console.log(b);
+// }
+
+// 2 tooni baga
+
+// let a = 9;
+// let b = 6;
+// if (a < b) {
+//   console.log(a);
+// } else {
+//   console.log(b);
+// }
+
+// 3 tooni ih
+
+// let a = 43;
+// let b = 23;
+// let c = 67;
+// if (a > b && a > c) {
+//   console.log(a);
+// } else if (b > a && b > c) {
+//   console.log(b);
+// } else if (c > a && c > b) {
+//   console.log(c);
+// }
+
 // let a = new Array(123, "asd", 213);
 // console.log(a);
 // let names = ["bat", "baldan ", "dulmaa ", "gonchig", "luubat", "manjin"];
