@@ -67,7 +67,7 @@
 
 // 10tiin ornii tsifr
 
-// let a = 243;
+// let a = 18;
 // let b;
 // function x(a) {
 //   a = a % 100;
@@ -222,6 +222,109 @@
 //   console.log(c);
 // }
 
+// 4 toonii baga
+// let a = 3;
+// let b = 2;
+// let c = 1;
+// let d = 4;
+// if (a < b && a < c && a < d) {
+//   console.log(a);
+// } else if (b < a && b < c && b < d) {
+//   console.log(b);
+// } else if (c < a && c < b && c < d) {
+//   console.log(c);
+// } else if (d < a && d < b && d < c) {
+//   console.log(d);
+// }
+
+// let num1 = 85;
+// let num2 = 75;
+// let num3 = 96;
+// let num4 = 69;
+// let sum = 0;
+// if (num1 > 80) {
+//   sum = sum + num1;
+// }
+// if (num2 > 80) {
+//   sum = sum + num2;
+// }
+// if (num3 > 80) {
+//   sum = sum + num3;
+// }
+// if (num4 > 80) {
+//   sum = sum + num4;
+// }
+// console.log(sum);
+
+// urjver 5
+
+// let a = 3;
+// let b = 6;
+// let c = 2;
+// let d = 4;
+// let urvjver = 1;
+// if (a < 5) {
+//   urvjver = urvjver * a;
+// }
+// if (b < 5) {
+//   urvjver = urvjver * b;
+// }
+// if (c < 5) {
+//   urvjver = urvjver * c;
+// }
+// if (d < 5) {
+//   urvjver = urvjver * d;
+// }
+// console.log(urvjver);
+
+// tegsh toonii niilber
+
+// let num1 = 10;
+// let num2 = 3;
+// let num3 = 5;
+// let sum = 0;
+// if (num1 % 2 == 0) {
+//   sum = sum + num1;
+// }
+// if (num2 % 2 == 0) {
+//   sum = sum + num2;
+// }
+// if (num3 % 2 == 0) {
+//   sum = sum + num3;
+// }
+// console.log(sum);
+
+// sondgoi toonuudin urjver
+// let a = 5;
+// let b = 2;
+// let c = 3;
+// let urvjver = 1;
+// if (a % 2 !== 0) {
+//   urvjver = urvjver * a;
+// }
+// if (b % 2 !== 0) {
+//   urvjver = urvjver * b;
+// }
+// if (c % 2 !== 0) {
+//   urvjver = urvjver * c;
+// }
+// console.log(urvjver);
+const arr = [2, 4, 5, 5];
+const str = "2 4 5 5";
+let too = 0;
+let x = 0;
+for (let i = 0; i < arr.length; i++) {
+  if (arr[i] == 5) {
+    too = too + 1;
+  }
+}
+for (let i = 0; i < str.length; i++) {
+  if (str[i] == 5) {
+    x = x + 1;
+  }
+}
+console.log(too);
+console.log(x);
 // let a = new Array(123, "asd", 213);
 // console.log(a);
 // let names = ["bat", "baldan ", "dulmaa ", "gonchig", "luubat", "manjin"];
