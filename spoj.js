@@ -309,22 +309,117 @@
 //   urvjver = urvjver * c;
 // }
 // console.log(urvjver);
-const arr = [2, 4, 5, 5];
-const str = "2 4 5 5";
-let too = 0;
-let x = 0;
-for (let i = 0; i < arr.length; i++) {
-  if (arr[i] == 5) {
-    too = too + 1;
-  }
-}
-for (let i = 0; i < str.length; i++) {
-  if (str[i] == 5) {
-    x = x + 1;
-  }
-}
-console.log(too);
-console.log(x);
+
+// tentsuu 5
+// const arr = [2, 4, 5, 5];
+// const str = "2 4 5 5";
+// let too = 0;
+// let x = 0;
+// for (let i = 0; i < arr.length; i++) {
+//   if (arr[i] == 5) {
+//     too = too + 1;
+//   }
+// }
+// for (let i = 0; i < str.length; i++) {
+//   if (str[i] == 5) {
+//     x = x + 1;
+//   }
+// }
+// console.log(too);
+// console.log(x);
+
+// 3 d huvaagdah too
+
+// let a = [3, 12, 8, 9];
+// let sum = 0;
+
+// for (let i = 0; i < a.length; i++) {
+//   if (a[i] % 3 == 0) {
+//     sum = sum + 1;
+//   }
+// }
+// console.log(sum);
+
+// 11d huvaagdahgui too
+
+// let a = [7, 22, 13, 30];
+// let sum = 0;
+
+// function x(a) {
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] % 11 !== 0) {
+//       sum = sum + a[i];
+//     }
+//   }
+//   return sum;
+// }
+// console.log(x(a));
+
+// 10aas ih
+
+// let a = 9;
+
+// if (a > 10) {
+//   console.log("YES");
+// } else {
+//   console.log("NO");
+// }
+
+// 5aas baga
+
+// let a = 4;
+
+// function x(a) {
+//   if (a < 5) {
+//     return "Yes";
+//   } else {
+//     return "NO";
+//   }
+// }
+// console.log(x(a));
+
+// tegsh toonuud YES
+
+// let a = [3, 4, 5];
+
+// function x(a) {
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] % 2 == 0) {
+//       console.log("YES");
+//     } else {
+//       console.log("NO");
+//     }
+//   }
+// }
+
+// let a = "baldan dorj ";
+// let b = a.split(" ");
+// console.log(a[0].toUpperCase() + "." + b[1].toUpperCase(6));
+// console.log(b);
+
+let person = {
+  name: "dashka",
+  age: 123,
+};
+let person2 = person;
+person.name = "bat";
+console.log(Object.keys(person));
+
+// let a = "baldorj baterdene ";
+
+// function x(a) {
+//   a = a.split(" ");
+//   return a;
+// }
+// let name = x(a);
+// let firstname = name[0];
+// let lastname = name[1];
+// let toUpperCase = (b) => {
+//   return b[0].toUpperCase();
+// };
+// let firstup = toUpperCase(firstname);
+// let n2up = toUpperCase(lastname);
+// console.log(firstup + "." + n2up + lastname.slice(1, lastname.lenght));
 // let a = new Array(123, "asd", 213);
 // console.log(a);
 // let names = ["bat", "baldan ", "dulmaa ", "gonchig", "luubat", "manjin"];
