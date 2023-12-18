@@ -397,13 +397,104 @@
 // console.log(a[0].toUpperCase() + "." + b[1].toUpperCase(6));
 // console.log(b);
 
-let person = {
-  name: "dashka",
-  age: 123,
-};
-let person2 = person;
-person.name = "bat";
-console.log(Object.keys(person));
+// let person = {
+//   name: "dashka",
+//   age: 123,
+// };
+// let person2 = person;
+// person.name = "bat";
+// console.log(Object.keys(person));
+
+// let names = [
+//   {
+//     name: "baterdene",
+//     age: 2003,
+//   },
+//   {
+//     name: "bat",
+//     age: 2005,
+//   },
+//   {
+//     name: "erdene",
+//     age: 1998,
+//   },
+//   {
+//     name: "213",
+//     age: 1999,
+//   },
+//   {
+//     name: "123",
+//     age: 2003,
+//   },
+//   {
+//     name: "345",
+//     age: 2003,
+//   },
+//   {
+//     name: "134",
+//     age: 2003,
+//   },
+// ];
+// for (let i = 0; i < names.length; i++) {
+//   console.log(names[i].name);
+// }
+
+// let a = ["pineapple", "apple", "orange", "mango"];
+// console.log(a.indexOf("orange"));
+// function findindex(x) {
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] == x) {
+//       return i;
+//     } else {
+//       return -1;
+//     }
+//   }
+// }
+// console.log(findindex("bi"));
+
+// let a = ["pineapple", "apple", "orange", "mango"];
+// let b = "";
+// function join() {
+//   for (let i = 0; i < a.length; i++) {
+//     if (i == a.length - 1) {
+//       b = b + " " + a[i];
+//     } else {
+//       b = b + " " + a[i] + " " + "or";
+//     }
+//   }
+//   return b;
+// }
+// console.log(join());
+
+// let a = ["pineapple", "apple", "orange", "mango"];
+// let b = "";
+// function tostring() {
+//   for (let i = 0; i < a.length; i++) {
+//     b = b + " " + a[i] + ",";
+//   }
+//   return b;
+// }
+// console.log(tostring());
+
+// let a = ["pineapple", "apple", "orange", "mango"];
+// function findindex(x) {
+//   for (let i = 0; i < a.length; i++) {
+//     if (a[i] == x) {
+//       return true;
+//     } else {
+//       return false;
+//     }
+//   }
+// }
+// console.log(findindex("bi"));
+
+// let a = [1, 3, 5, 22, 89, 46, 17, 31];
+// let b;
+// function x() {
+//   b = Math.min(...a) + " " + Math.max(...a);
+//   return b;
+// }
+// console.log(x());
 
 // let a = "baldorj baterdene ";
 
@@ -477,3 +568,87 @@ console.log(Object.keys(person));
 //     console.log((i += j));
 //   }
 // }
+
+// let a = [1, 2, 3, 4];
+// let num = 5;
+// // function x() {
+// //   a = a + "," + num;
+// //   return a;
+// // }
+// // console.log(x());
+
+// function b() {
+//   a = a[a.length] - a[a.length - 1];
+//   return a;
+// }
+// console.log(b());
+
+// let a = [1, 2, 3, 4, 5];
+// let sum = 0;
+// for (let i = 0; i < a.length; i++) {
+//   sum = sum + a[i];
+// }
+// sum = sum / (a.length - 1);
+// console.log(sum);
+
+// let numberObject = {
+//   a: 5,
+//   b: 10,
+//   c: 3,
+// };
+// let objectKeys = Object.keys(numberObject);
+// function sum(keys, Object) {
+//   let sum = 0;
+//   for (let i = 0; i < keys.length; i++) {
+//     sum += Object[keys[i]];
+//   }
+//   return sum;
+// }
+// console.log(objectKeys);
+// console.log(sum(objectKeys, numberObject));
+
+// const stringObject = { name: "john", age: 25, city: "example" };
+// let objectKeys = Object.keys(stringObject);
+
+// const firstLetterToUpperCase = (keys) => {
+//   return keys.slice(0, 1).toUpperCase();
+// };
+// for (let i = 0; i < objectKeys.length; i++) {
+//   console.log(
+//     firstLetterToUpperCase(stringObject[objectKeys[i]]) +
+//       stringObject[objectKeys[i]]
+//   );
+// }
+
+// const fullName = "Dulam Jantsan";
+// const firstName = fullName.split(" ")[0];
+// const lastName = fullName.split(" ")[1];
+// const firstLetterToUpperCase = (str) => {
+//   return str.slice(0, 1).toUpperCase();
+// };
+// const firstNameToUpperCase = (str) => {
+//   const firstStr = firstLetterToUpperCase(str);
+//   const lastStr = str.slice(1, str.length);
+//   return firstStr + lastStr;
+// };
+// const lastNameStr = firstLetterToUpperCase(lastName);
+// console.log(
+//   lastNameStr + "." + " " + firstNameToUpperCase(firstName, lastName)
+// );
+
+// const mockObject = {
+//   key1: "value1",
+//   key2: 42,
+//   key3: ["item1", "item2"],
+//   key4: { nestedKey: "nestedValue" },
+//   key5: true,
+//   key6: null,
+// };
+// mockObject.key1 = null;
+// mockObject.key2 = "value1";
+// mockObject.key3 = 42;
+// (mockObject.key4 = ["item1", "item2"]),
+//   (mockObject.key5 = { nestedKey: "nestedValue" }),
+//   (mockObject.key6 = true);
+
+// console.log(mockObject);
